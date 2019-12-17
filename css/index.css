@@ -1,0 +1,102 @@
+@charset "utf-8";
+@keyframes intro{
+	from{
+		opacity: 0%;
+	}
+	to{
+		opacity: 100%;
+	}
+}
+*{
+	margin: 0;
+	animation: intro 1s;
+}
+html{
+	width: 100%;
+}
+
+header{
+	height: 10%;
+	background-color: gray;
+	text-align: center;
+}
+
+#main{
+	position: relative;
+	width: 100%;
+	height: 700px;
+}
+
+#main>div{
+	width: 800px;
+	height: 500px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;	
+}
+
+#main>div div{
+	height: 320px;
+	width: 160px;
+	position: relative;
+	text-align: center;
+}
+
+#main>div a span{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(255,255,255,0.7);
+	color: #000000;
+	font-size: 28px;
+}
+
+#main>div a:hover div{
+	width: 320px;
+}
+#main>div a:hover span{
+	opacity: 0%;
+}
+
+#main>div div{
+	display: inline-block;
+}	
+
+#game{
+	background-image: url(../img/main1.png);
+}
+#bili{
+	background-image: url(../img/main2.png);
+}
+#about{
+	background-image: url(../img/main3.png) ;
+}
+
+
+
+footer{
+	height: 10%;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	bottom: 0;
+}
+footer span{
+	position: absolute;
+	color: white;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+footer button{
+	float: left;
+	height: 100%;
+	width: 100%;
+	opacity: 0%;
+	animation: 0s;
+}

@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+@keyframes name {
+	from {
+		opacity: 0%;
+	}
+
+	to {
+		opacity: 100%;
+	}
+}
+
+#main{
+	position: relative;
+	width: 800px;
+	height: 700px;
+	margin: 50px auto;
+	padding: 20px;
+	border: 1px solid #CCCCCC;
+}
+.title{
+	width: 220px;
+	background-color: dimgrey;
+}
+
+#main tr{
+	background-color: darkgray;
+	padding: 0;
+	color: white;
+}
+
+#bdfm {
+	width: 450px;
+	margin: 100px auto 0 auto;
+	text-align: center;
+}
+#search{
+	margin-top: 10px;
+}
+#ps{
+	text-align: center;
+}
+
+

@@ -1,0 +1,179 @@
+@charset "utf-8";
+header{
+	background-color: gray;
+	text-align: center;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	height: 600px;
+	width: 600px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+
+#container {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	height: 500px;
+	width: 500px;
+	background: #bbada0;
+	flex-wrap: wrap;
+	padding: 20px;
+	justify-content: center;
+	border-radius: 10px;
+}
+
+.item {
+
+	width: 100px;
+	height: 100px;
+	font-size: 40px;
+	line-height: 80px;
+	border-radius: 10px;
+	text-align: center;
+	background: #ccc0b3;
+	align-items: flex-start;
+	align-items: -webkit-start;
+	margin: 10px;
+	user-select: none;
+}
+
+@keyframes mymove {
+	0% {
+		font-size: 40px;
+		opacity: 1;
+		background: goldenrod
+	}
+
+	50% {
+		font-size: 50px;
+		opacity: 0.5
+	}
+
+	100% {
+		font-size: 40px;
+		opacity: 1
+	}
+}
+
+.n0 {
+	background: #ccc0b3;
+
+}
+
+.n2 {
+	background: #eee4da;
+	animation: mymove 0.5s;
+	color: #7c736a;
+}
+
+.n4 {
+	color: #7c736a;
+	background: #ece0c8;
+	animation: mymove 0.5s;
+	color: #7c736a;
+}
+
+.n8 {
+	color: #fff7eb;
+	background: #f2b179;
+	animation: mymove 0.5s;
+}
+
+.n16 {
+	color: #fff7eb;
+	background: #f59563;
+	animation: mymove 0.5s;
+}
+
+.n32 {
+	color: #fff7eb;
+	background: #f57c5f;
+	animation: mymove 0.5s;
+}
+
+.n64 {
+	color: #fff7eb;
+	background: #f65d3b;
+	animation: mymove 0.5s;
+}
+
+.n128 {
+	color: #fff7eb;
+	background: #edce71;
+	animation: mymove 0.5s;
+}
+
+.n256 {
+	color: #fff7eb;
+	background: #edcc61;
+	animation: mymove 0.5s;
+}
+
+.n512 {
+	color: #fff7eb;
+	background: #ecc850;
+	animation: mymove 0.5s;
+}
+
+.n1024 {
+	color: #fff7eb;
+	background: #edc53f;
+	animation: mymove 0.5s;
+}
+
+.n2048 {
+	color: #fff7eb;
+	background: #eec22e;
+	animation: mymove 0.5s;
+}
+
+#gameover {
+	height: 408px;
+	width: 408px;
+	background: red;
+	display: none;
+}
+
+#final {
+	display: none;
+}
+
+#peace {
+	height: 408px;
+	width: 408px;
+	background: #ecc850;
+	display: none;
+}
+
+#btn{
+	margin: 10px auto;
+	cursor: pointer;
+	width: 100px;
+	height: 40px;
+	border-radius: 20px;
+	background: #fff7eb;
+	outline: none;
+	display: block;
+}
+
+#back{
+	color: black;
+	font-size: 18px;
+	height: 20px;
+	width: 100px;
+	background-color: white;
+	border: 2px solid gray;
+	line-height: 20px;
+	border-radius: 10px;
+}
+#backa{
+	text-decoration: none;
+}
